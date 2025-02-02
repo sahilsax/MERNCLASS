@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Styling</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        
+        h1 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        
+        p {
+            font-family: Georgia, serif;
+            line-height: 1.8;
+            text-align: justify;
+            margin: 10px 0;
+        }
+
+       
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .image-container figcaption {
+            font-style: italic;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        
+        .styled-button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #007BFF;
+            border: 1px solid #0056b3;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .styled-button:hover {
+            background-color: #0056b3;
+        }
+
+       
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        
+        form {
+            margin: 20px auto;
+            width: 50%;
+        }
+
+        input[type="text"], input[type="submit"] {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOING WEEK 1 ASSIGNMENT</h1>
+    <p>This is the first paragraph as asked in assignment</p>
+    <p>This is the second paragraph as asked in assignment</p>
+
+    <div class="image-container">
+        <figure>
+            <img src="https://imgs.search.brave.com/vPKoyg5bm-AveBl-VriSigqjRInVs02B-sjoqoKNu9o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA5LzM4LzIwLzQ0/LzM2MF9GXzkzODIw/NDQ4MF81QlpQd1o0/ZEw1aXVqcjJYWnd6/a3hkRmVRSm9SRHNS/RS5qcGc" alt="Placeholder Image">
+            <figcaption>An example caption for the image above.</figcaption>
+        </figure>
+    </div>
+
+    <button class="styled-button">Click Me</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 3, Cell 1</td>
+                <td>Row 3, Cell 2</td>
+                <td>Row 3, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="text" placeholder="Enter your email">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
